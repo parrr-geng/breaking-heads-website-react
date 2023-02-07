@@ -9,8 +9,7 @@ function HomePage(){
                     <Navbar />
                 </div>
                 <div className="col-span-2">
-
-
+                    <h2>HOME PAGE</h2>
                 </div>
             </div>
 
