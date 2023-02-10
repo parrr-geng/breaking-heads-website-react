@@ -1,5 +1,6 @@
 import Calendly from "../components/Calendly";
 import Navbar from "../components/Navbar";
+import logoWithName from "../assets/logo_name_black.png";
 
 function HomePage(){
     return (
@@ -9,7 +10,9 @@ function HomePage(){
                     <Navbar />
                 </div>
                 <div className="col-span-2">
-                    <h2>HOME PAGE</h2>
+                    <div className="flex flex-row min-h-full justify-center items-center">
+                        <img className="w-4/5" src={logoWithName} href="Breaking Heads Logo" />
+                    </div>
                 </div>
             </div>
 
