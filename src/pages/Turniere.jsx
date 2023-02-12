@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Clock from "../components/Clock";
 
 function Turniere(){
     return(
@@ -44,6 +45,7 @@ function Turniere(){
                         </div>
                     </div>
                     <div>
+                        <Clock />
                         <a href="https://www.tabletopturniere.de/t3_tournament.php?tid=25808">
                             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2">
                                 TabletopMasters Finale 2019
